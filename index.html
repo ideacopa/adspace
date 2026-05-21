@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- SEO & Accessibility Best Practices -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ADSPACE BY !C</title>
+  <meta name="description"
+    content="Welcome to the Antigravity link portal. Access developer playgrounds, SDK documentations, open-source repositories, and developer communities for the ultimate agentic AI companion.">
+
+  <!-- OpenGraph Metadata (LinkedIn / Facebook / Discord Previews) -->
+  <meta property="og:title" content="Antigravity Portal — Defying Coding Gravity">
+  <meta property="og:description"
+    content="Access developer playgrounds, documentations, and communities for the ultimate agentic AI companion.">
+  <meta property="og:image" content="./assets/avatar.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Antigravity Portal — Defying Coding Gravity">
+  <meta name="twitter:description"
+    content="Access developer playgrounds, documentations, and communities for the ultimate agentic AI companion.">
+  <meta name="twitter:image" content="./assets/avatar.png">
+
+  <!-- Icons & Fonts CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/avatar.png">
+</head>
+
+<body>
+
+  <!-- Starfield Canvas Layer -->
+  <canvas id="starfield"></canvas>
+
+  <!-- Ambient Glow Background Blobs -->
+  <div class="ambient-glow glow-violet"></div>
+  <div class="ambient-glow glow-cyan"></div>
+
+  <!-- Main Linktree Dashboard Container -->
+  <main class="portal-card float-delayed-1" id="main-portal">
+
+    <!-- Profile & Header Section -->
+    <header>
+      <!-- <div class="header-actions">
+        <button class="gravity-toggle-btn" id="gravity-toggle" aria-label="Toggle zero-gravity simulation mode">
+          <i class="fa-solid fa-circle-nodes"></i>
+          <span class="toggle-text">ADSPACE</span>
+        </button>
+      </div> -->
+
+      <div class="avatar-container">
+        <div class="avatar-ring-outer"></div>
+        <div class="avatar-ring"></div>
+        <img src="./assets/avatar.png" alt="Antigravity Quantum Core Logo" class="avatar-img">
+      </div>
+
+      <h1 class="profile-title">
+        COLLEGE OF ENGINEERING KOTTARAKKARA
+        <span class="status-badge" title="Antigravity agent status: Online and ready">
+          <span class="status-dot"></span>
+          Active
+        </span>
+      </h1>
+
+
+    </header>
+
+    <!-- Social & Interactive Navigation Links -->
+    <nav class="links-grid" aria-label="Antigravity developer resources and community links">
+
+      <!-- Link Item 1: Web Sandbox -->
+      <a href="https://antigravity-sandbox.dev" class="link-card link-code float-delayed-2" target="_blank"
+        data-track="link-sandbox" id="link-sandbox-item">
+        <div class="link-card-content">
+          <div class="link-icon-wrapper">
+            <i class="fa-solid fa-laptop-code link-icon"></i>
+          </div>
+          <div class="link-text-container">
+            <span class="link-title">L1</span>
+            <span class="link-subtitle">ENTER YOUR SUB HEADING</span>
+          </div>
+        </div>
+        <span class="stat-counter link-subtitle" style="margin-right: 1.5rem; opacity: 0.85;">0 clicks</span>
+        <i class="fa-solid fa-arrow-right link-arrow" aria-hidden="true"></i>
+      </a>
+
+
+
+    </nav>
+
+    <!-- Native-Style Sponsor Deck (Ad Space) -->
+    <section class="sponsor-deck" aria-label="Curated sponsor tools and recommendations">
+      <h2 class="sponsor-title">Sponsor Spotlights</h2>
+
+      <div class="sponsor-grid">
+
+        <!-- Sponsor Card 1: NeonDB -->
+        <a href="https://neon.tech?ref=antigravity" class="sponsor-card" target="_blank" data-track="sponsor-neon"
+          id="sponsor-neon-item" rel="sponsored">
+          <div class="sponsor-img-container">
+            <span class="sponsor-tag">Sponsor</span>
+            <img src="./assets/ad_neon.png" alt="Neon Database Console Dashboard mock view" class="sponsor-img">
+          </div>
+          <div class="sponsor-details">
+            <div class="sponsor-name">
+              SPONSOR HERE BUDDY
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p class="sponsor-desc">
+            </p>
+            <span class="stat-counter link-subtitle" style="font-size: 0.65rem; margin-top: 0.4rem; opacity: 0.8;">0
+              clicks</span>
+          </div>
+        </a>
+
+        <!-- Sponsor Card 2: VaporHost -->
+        <a href="https://vaporhost.cloud?ref=antigravity" class="sponsor-card" target="_blank"
+          data-track="sponsor-vapor" id="sponsor-vapor-item" rel="sponsored">
+          <div class="sponsor-img-container">
+            <span class="sponsor-tag">Sponsor</span>
+            <img src="./assets/ad_vapor.png" alt="Vapor Hosting Network Nodes mock view" class="sponsor-img">
+          </div>
+          <div class="sponsor-details">
+            <div class="sponsor-name">
+              SPONSOR HERE BUDDY
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p class="sponsor-desc"></p>
+            <span class="stat-counter link-subtitle" style="font-size: 0.65rem; margin-top: 0.4rem; opacity: 0.8;">0
+              clicks</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <a href="https://www.ideacopa.site" class="footer-brand">
+        <i class="fa-solid fa-light"></i> !DEACOPA
+      </a>
+      <div class="footer-links">
+        <a href="#" class="footer-link" target="_blank">License</a>
+        <span>&bull;</span>
+        <a href="#" class="footer-link" target="_blank">Privacy</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Load JavaScript Code -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
